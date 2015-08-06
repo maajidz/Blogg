@@ -1,0 +1,16 @@
+extends ./layout.jade
+block content
+   div(class="container")
+    div
+      form(action="/blog", method="POST")
+        div
+          label(for="title", placeholder="Title")
+          input(class="user_input", type="text", placeholder="Title", name="title", required)
+        div
+          label(for="category", placeholder="Category")
+          input(class="user_input", type="text", placeholder="Category", name="category", required)
+        div
+          label(for="content", placeholder="Content") 
+          textarea(class="user_input_content", placeholder="Content", required, name="content", rows=10)
+        div
+          input(class="submit_button", type="submit", value="Post")

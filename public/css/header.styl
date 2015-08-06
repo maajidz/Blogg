@@ -1,0 +1,30 @@
+header
+  cf()
+  padding 1rem 1rem 3rem
+
+.logo
+  display block
+  col(1/4)
+  img
+    max-height 100px
+
+.header-meta
+  col(3/4)
+  text-align right
+
+.site-title
+  font-size 3rem
+  font-weight bold
+  line-height 1
+  color color-primary
+  padding-bottom .5rem
+  margin 0
+
+.navigation
+  ul
+    @extend .list-bare
+  li
+    display inline-block
+    padding-left 1rem
+    a
+      @extend .link-default

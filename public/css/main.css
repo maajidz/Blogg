@@ -1,0 +1,415 @@
+@font-face {
+  font-family: 'janus';
+  src: url("../font/janus.eot?66573721");
+  src: url("../font/janus.eot?66573721#iefix") format('embedded-opentype'), url("../font/janus.woff?66573721") format('woff'), url("../font/janus.ttf?66573721") format('truetype'), url("../font/janus.svg?66573721#janus") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "janus";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+/* opacity: .8; */
+/* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+/* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+/* Animation center compensation - margins should be symmetric */
+/* remove if not needed */
+  margin-left: 0.2em;
+/* you can be more comfortable with increased icons size */
+/* font-size: 120%; */
+/* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+/* Uncomment for 3D effect */
+/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+.icon-github-circled:before {
+  content: '\e800';
+}
+.icon-mail:before {
+  content: '\e801';
+}
+.icon-twitter:before {
+  content: '\e802';
+}
+.icon-pencil:before {
+  content: '\e803';
+}
+.icon-trash-empty:before {
+  content: '\e804';
+}
+.link-default,
+p a,
+.navigation li a,
+.post_title a {
+  text-decoration: none;
+  color: #b56464;
+}
+.link-default:hover,
+p a:hover,
+.navigation li a:hover,
+.post_title a:hover {
+  border-bottom: 1px dotted;
+}
+.list-bare,
+.navigation ul,
+.social_wrap,
+.post_list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+/* normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+dfn {
+  font-style: italic;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input {
+  line-height: normal;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+textarea {
+  overflow: auto;
+}
+optgroup {
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td,
+th {
+  padding: 0;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: #f4f3f3;
+  *zoom: 1;
+  width: auto;
+  max-width: 900px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: 'avenir', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+body:before,
+body:after {
+  content: '';
+  display: table;
+}
+body:after {
+  clear: both;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+p {
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+header {
+  *zoom: 1;
+  padding: 1rem 1rem 3rem;
+}
+header:before,
+header:after {
+  content: '';
+  display: table;
+}
+header:after {
+  clear: both;
+}
+.logo {
+  display: block;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 22.75%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.logo:before,
+.logo:after {
+  content: '';
+  display: table;
+}
+.logo:after {
+  clear: both;
+}
+.logo:last-child {
+  margin-right: 0%;
+}
+.logo img {
+  max-height: 100px;
+}
+.header-meta {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 74.25%;
+  margin-left: 0%;
+  margin-right: 3%;
+  text-align: right;
+}
+.header-meta:before,
+.header-meta:after {
+  content: '';
+  display: table;
+}
+.header-meta:after {
+  clear: both;
+}
+.header-meta:last-child {
+  margin-right: 0%;
+}
+.site-title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
+  color: #b56464;
+  padding-bottom: 0.5rem;
+  margin: 0;
+}
+.navigation li {
+  display: inline-block;
+  padding-left: 1rem;
+}
+footer {
+  text-align: center;
+}
+.social_wrap {
+  padding: 1rem;
+}
+.social_wrap li {
+  display: inline-block;
+}
+.social_wrap a {
+  font-size: 2rem;
+}
+.twitter {
+  color: #55acee;
+}
+.github {
+  color: #333;
+}
+.mail {
+  color: #db4437;
+}
+input,
+textarea {
+  border: 1px solid #aaa;
+  font-size: 1.125rem;
+  font-family: 'avenir', sans-serif;
+  background: #fff;
+}
+input[type='text'],
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+textarea {
+  resize: vertical;
+}
+input[type='submit'] {
+  padding: 1rem;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  cursor: pointer;
+}
+.post_list li {
+  margin-bottom: 3rem;
+}
+.post_title {
+  margin: 0;
+}

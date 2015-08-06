@@ -1,0 +1,15 @@
+extends ./layout.jade
+block content
+  h1(class="edit_head") Edit
+  form(action="/blog/#{blogs.id}", method="post")
+    div
+      label(for="title", placeholder="Title")
+      input(class="user_input", type="text", placeholder="Title", name="title", value=blogs.title)
+    div
+      label(for="category", placeholder="Category")
+      input(class="user_input", type="text", placeholder="Category", name="category", value=blogs.category)
+    div
+      label(for="content", placeholder="Content")
+      textarea(class="user_input_content", placeholder="Category", name="content")= blogs.content
+    div
+      input(class="submit_button", type="submit", value="Post")

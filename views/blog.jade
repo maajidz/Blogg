@@ -1,0 +1,12 @@
+extends ./layout.jade
+block content
+  div(class="cover_wrap")
+    figure
+  ul(class="post_list")
+    each post in blogs 
+      li
+        small(class="post_category")= post.category
+        h3(class="post_title")
+          a(class="post_title" href="/blog/#{post.id}")= post.title
+        small(class="post_date") #{post.fday} #{post.fmonth} #{post.fyear}
+        p(class="post_content_preview")= post.content

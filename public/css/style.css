@@ -1,0 +1,413 @@
+@import url("http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800");
+@import url("/css/janus.css");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  *zoom: 1;
+  width: auto;
+  max-width: 800px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  background: #f4f3f3;
+  font-family: 'Dosis', sans-serif;
+}
+body:before,
+body:after {
+  content: '';
+  display: table;
+}
+body:after {
+  clear: both;
+}
+header {
+  padding: 2rem 0;
+  margin-bottom: 6rem;
+  overflow: hidden;
+}
+.right_wrap {
+  text-align: right;
+  width: 80%;
+  float: right;
+}
+.global_head {
+  font-size: 3rem;
+  color: #b56464;
+  padding: 1rem 0;
+  padding-top: 0;
+}
+a {
+  text-decoration: none;
+}
+.list_items {
+  padding-left: 2rem;
+  margin-top: 1.3rem;
+  display: inline-block;
+}
+.post_list li {
+  *zoom: 1;
+  padding: 2rem 0;
+}
+.post_list li:before,
+.post_list li:after {
+  content: '';
+  display: table;
+}
+.post_list li:after {
+  clear: both;
+}
+.post_list li:last-child {
+  border-bottom: none;
+}
+.meta_trio {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 20%;
+  margin-left: 0%;
+  margin-right: 0%;
+  text-transform: uppercase;
+}
+.meta_trio:before,
+.meta_trio:after {
+  content: '';
+  display: table;
+}
+.meta_trio:after {
+  clear: both;
+}
+.meta_trio:last-child {
+  margin-right: 0%;
+}
+.post_title {
+  font-size: 1.2rem;
+  -webkit-transition: 0.4s all;
+  -moz-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  -ms-transition: 0.4s all;
+  transition: 0.4s all;
+  color: #b2acac;
+  font-weight: 600;
+}
+.post_title:hover {
+  color: #353535;
+  letter-spacing: 0.1rem;
+}
+.post_header {
+  color: #353535;
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  padding: 2rem 0;
+  width: 26%;
+}
+.blogpost_wrap {
+  padding: 1rem 0;
+  zoom: 1;
+}
+.blogpost_wrap:after,
+.blogpost_wrap:before {
+  content: "";
+  display: table;
+}
+.blogpost_wrap:after {
+  clear: both;
+}
+.post_category {
+  font-size: 1rem;
+  font-style: italic;
+}
+.post_date {
+  display: inline-block;
+}
+.blogpost_date {
+  display: inline-block;
+}
+.post_content {
+  font-size: 1rem;
+  color: #5e5e5e;
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 68%;
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: justify;
+  line-height: 2rem;
+}
+.post_content:before,
+.post_content:after {
+  content: '';
+  display: table;
+}
+.post_content:after {
+  clear: both;
+}
+.post_content:last-child {
+  margin-right: 0%;
+}
+.post_content_preview {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 80%;
+  margin-left: 0%;
+  margin-right: 0%;
+  line-height: 1.5rem;
+  text-align: justify;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.post_content_preview:before,
+.post_content_preview:after {
+  content: '';
+  display: table;
+}
+.post_content_preview:after {
+  clear: both;
+}
+.post_content_preview:last-child {
+  margin-right: 0%;
+}
+.post_content_preview::first-line {
+  line-height: 0rem;
+  color: #f00;
+}
+.post_title_h3 {
+  padding: 2rem 0rem;
+}
+.footer {
+  border-top: 1px solid #ab7e7e;
+  padding: 3.5rem 0;
+  color: #b56464;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 6rem;
+}
+h4 {
+  margin: 2rem 0;
+}
+.logo {
+  height: 120px;
+  max-width: 20%;
+  float: left;
+  -webkit-border-radius: 80px;
+  border-radius: 80px;
+}
+a {
+  color: #b56464;
+  letter-spacing: 1px;
+}
+figure {
+  max-height: 400px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+.edit_delete_wrap {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 10%;
+  margin-left: 0%;
+  margin-right: 0%;
+  float: right;
+}
+.edit_delete_wrap:before,
+.edit_delete_wrap:after {
+  content: '';
+  display: table;
+}
+.edit_delete_wrap:after {
+  clear: both;
+}
+.edit_delete_wrap:last-child {
+  margin-right: 0%;
+}
+.edit_delete_wrap a {
+  float: right;
+  text-align: right;
+}
+.icon-pencil:before,
+.icon-trash-empty:before {
+  font-family: janus;
+  font-size: 1.5rem;
+  content: e 800;
+}
+.deletebutton {
+  margin: 1rem 0;
+}
+.about_box {
+  padding: 4rem 0;
+  line-height: 2rem;
+}
+.cc_logo {
+  fill: #b56464;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "janus";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
+}
+.icon-twitter:before,
+.icon-mail:before,
+.icon-github-circled:before {
+  font-family: janus;
+  font-size: 3rem;
+  content: e 800;
+}
+.icon-github-circled {
+  color: #333;
+}
+.icon-twitter {
+  color: #55acee;
+}
+.icon-mail {
+  color: #e75a4d;
+}
+hr {
+  width: 0px;
+  color: #fff;
+}
+.user_input {
+  font-size: 1.5rem;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  width: 100%;
+  margin-bottom: 0.1rem;
+}
+.user_input_content {
+  width: 100%;
+  height: 300px;
+  font: 1rem Dosis;
+  padding: 0.8rem 1.5rem;
+  border: none;
+}
+.submit_button {
+  width: 100%;
+  padding: 1rem 3rem;
+  border: none;
+  background-color: #b56464;
+  color: #fff;
+}
+.submit_button:hover {
+  cursor: pointer;
+}
+.edit_head {
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}

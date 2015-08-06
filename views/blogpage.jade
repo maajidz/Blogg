@@ -1,0 +1,13 @@
+extends ./layout.jade
+block content
+	div(class="blogpost_wrap")
+		span(class="meta_trio")
+			em(class="post_category_main")= blogs.category
+			h1(class="post_header")= blogs.title
+			em(class="blogpost_date")= blogs.fdate
+		p(class="main_content post_content")= blogs.content
+		div(class="edit_delete_wrap")
+			a(class="editbutton icon-pencil" href="/blog/#{blogs.id}/edit") Edit
+			br
+			a(class="deletebutton icon-trash-empty" href="/blog/#{blogs.id}/delete") Delete
+
