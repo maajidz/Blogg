@@ -7,7 +7,8 @@ var bodyParser = require('body-parser');
 var slug = require('slug');
 var moment = require('moment');
 var basicAuth = require('basic-auth')
-var app = express();
+var app = express(); 
+
 
 app.set('port', process.env.PORT || 3000);
 app.set('view engine', 'jade');
